@@ -1,0 +1,131 @@
+/*--------------ПІДКЛЮЧЕННЯ ШРИФТІВ-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/*---------------------------------------------------*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #424551;
+    background: url('../img/background.jpg') no-repeat rgb(228, 228, 228);
+}
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+/*[class*="__container"]{
+    margin: 0 auto;
+    max-width: 810px;
+}*/
+.header{
+    background: mediumslateblue;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    position: fixed;
+}
+.header__container{
+    margin: 0 auto;
+    max-width: 1230px;
+}
+.header__title{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    padding-top: 50px;
+}
+.header__menu{
+    display: inline-block;
+}
+.header__menu li{
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+
+}
+.header__sub-menu{
+    background-color: rgba(117, 100, 210, 0.75);
+	position: absolute;
+	min-width: 190px;
+	top: 20px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+    min-height: 30px;
+    padding: 5px 20px 5px 0;
+}
+.header__item-menu:hover {
+	color: rgb(255, 189, 255);
+}
+.header__sub-menu li{
+    margin: 5px 1px;
+}
+.header__item-menu:hover .header__sub-menu{
+	opacity: 1;
+	visibility: visible;
+}
+.page{
+    min-height: 2000px;
+}
+.footer{
+    background: mediumslateblue;
+    width: 100%;
+    height: 80px;
+    color: rgba(215, 215, 215, 0.818);
+}
+.footer__title{
+    text-transform: lowercase;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.cloud__item-1 {
+    position: absolute;
+    top: 150px;
+    left: 1200px;
+}
+.cloud__picture{
+    width: 700px;
+}
+.cloud__picture img{
+    max-width: 100%;
+}
+.iron-man{
+    position: absolute;
+    width: 700px;
+    top: 200px;
+    left: 900px; 
+    transition: all 0.7s ease-in-out 0s;
+    
+}
+.iron-man img{
+    max-width: 100%;
+    
+}
+.iron-man:hover{
+    width: 900px;
+    top: 300px;
+    left: 700px; 
+}
+.avto{
+    position: absolute;
+    width: 900px;
+    top: 1200px;
+    left: 500px;
+}
+.avto img{
+    max-width: 100%;
+}
+.grace__item{
+    position: absolute;
+    top: 1840px;
+    opacity: 0.5;
+}
+.item--2{
+    left: 630px;
+}
+.item--3{
+    left: 1260px;
+}
+.grace img{
+    max-width: 100%;
+}
